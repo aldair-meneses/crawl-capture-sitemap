@@ -1,4 +1,8 @@
 {
-  "name": "crawler-and-screen-sitemap",
-  "packageManager": "yarn@4.2.2"
+  "name": "crawler-and-screenshot-sitemap",
+  "main": "./src/init.js",
+  "dependencies": {
+    "puppeteer": "^23.6.1"
+  },
+  "packageManager": "yarn@4.5.1"
 }
