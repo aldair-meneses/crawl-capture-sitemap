@@ -1,0 +1,10 @@
+{
+    "launcherOptions": {
+        "headless": true,
+        "args": ["--start-maximized"],
+        "defaultViewport": { "width": 1920, "height": 1080 }
+    },
+    "gotoOptions": {
+        "waitUntil": "networkidle2"
+    }
+}
