@@ -2,7 +2,6 @@ const puppeteer = require('puppeteer');
 const path = require('path');
 const settings = require('./settings.js');
 const pagesUrls = require('./navigation/pagesManager.js');
-const { timeout } = require('puppeteer');
 
 const { launcherOptions, gotoOptions, cookies } = settings;
 
